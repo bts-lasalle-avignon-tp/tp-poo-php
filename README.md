@@ -65,6 +65,7 @@ var_dump($c); // string(5) "hello"
 
 // transtypage :
 $a = (int)$b; // a vaut 2
+?>
 ```
 
 ## La syntaxe
