@@ -10,7 +10,7 @@ Cette partie présente les éléments essentiels à connaître sur PHP. Evidemme
 PHP est un langage de programmation interprété. Il permet la programmation orientée objet. Il est doté d’un typage dynamique faible.
 
 > Le langage PHP a été créé en 1994 par Rasmus Lerdorf pour son site web. C’était à l’origine une bibliothèque logicielle en langage C dont il se servait pour conserver une trace des visiteurs qui venaient consulter son CV. PHP s’appelait alors PHP/FI (_Personal Home Page Tools/Form Interpreter_). En 1997, deux étudiants, Andi Gutmans et Zeev Suraski, ont redéveloppé le coeur de PHP/FI. Ce travail a abouti un an plus tard à la version 3 de PHP, devenu alors PHP (_Hypertext PreProcessor_). Peu de temps après, Andi Gutmans et Zeev Suraski ont commencé la réécriture du moteur interne de PHP. C'est ce nouveau moteur appelé Zend Engine qui a servi de base à la version 4 de PHP. Comme de nombreux projets Open Source, PHP possède une mascotte. Il s’agit de l’éléPHPant, dessiné en 1998 par El Roubio.
-![](elephpant.png)
+![](images/elephpant.png)
 
 Le langage PHP est placé sous une licence libre et fonctionne sur la plupart des plates-formes informatiques (Windows, Unix, GNU/Linux, macOS, Android, iOS, ...).
 
@@ -28,7 +28,7 @@ Ressources :
 
 Le langage PHP est un langage populaire :
 
-![](tiobe.png)
+![](images/tiobe.png)
 
 PHP est le langage de programmation web côté serveur le plus utilisé depuis plusieurs années (75 % de part de marché depuis 2010 puis 82 % en 2016). En 2013, PHP était utilisé par plus de 244 millions de sites Web à travers le monde.
 
@@ -230,6 +230,8 @@ $ php helloworld.php
 Pour l’écriture d’un programme orientée objet en PHP, on désire disposer du concept de `CompteBancaire`.
 
 Un `CompteBancaire` doit posséder un titulaire, un solde et une devise (EUR, USD, ...). Il est possible d’obtenir le nom du titulaire ainsi que le solde et la devise de ce solde. Lorsque l’on crée un compte bancaire, il est possible de préciser le nom du titulaire, le solde initial et la devise sinon il aura des valeurs nulles par défaut (EUR pour la devise).
+
+![](images/classe-compte.png)
 
 Fournir un programme `compte.php` qui permet de répondre aux questions ci-dessous.
 
