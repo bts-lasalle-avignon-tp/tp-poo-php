@@ -1,5 +1,15 @@
 # TP POO : PHP
 
+- [TP POO : PHP](#tp-poo--php)
+  - [Le langage PHP](#le-langage-php)
+    - [Présentation](#présentation)
+    - [Le typage](#le-typage)
+  - [La syntaxe](#la-syntaxe)
+  - [Interprétation de code POO](#interprétation-de-code-poo)
+  - [Travaux pratiques](#travaux-pratiques)
+    - [Pré-requis](#pré-requis)
+    - [Travail demandé](#travail-demandé)
+
 **Les objectifs de ce TP sont de s’initier à la programmation PHP en transférant ses connaissances de la programmation orientée objet.**
 
 ## Le langage PHP
