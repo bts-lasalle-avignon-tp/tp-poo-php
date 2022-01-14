@@ -60,21 +60,32 @@ Exemples de langage à typage dynamique : **PHP**, Perl, Python, Javascript, bas
 
 Le langage PHP est doté d’un **typage dynamique faible**.
 
-Exemple d’utilisation des types en PHP :
+Exemple d’utilisation des types en PHP (`type.php`) :
 
 ```php
+#!/usr/bin/php
 <?php
+// En PHP : cf. http://php.net/manual/fr/language.types.type-juggling.php
 $a = 1; // un entier
 $b = 2.5; // un nombre à virgule flottante
 $c = "hello"; // une chaîne de caractères
+$d = false; // un booléen
+$fruits = array('pomme', 'banane', 'fraise'); // un tableau
 
 // afficher le type d'une variable :
-var_dump($a); // int(1)
-var_dump($b); // float(2.5)
-var_dump($c); // string(5) "hello"
+var_dump($a); // int(1) cf. is_int() 
+var_dump($b); // float(2.5) cf. is_float() 
+var_dump($c); // string(5) "hello" cf. is_string()
+var_dump($d); // bool(false) cf. is_bool()
+var_dump($fruits); // array(3) ... cf. is_array()
 
 // transtypage :
 $a = (int)$b; // a vaut 2
+
+// tester le type d'une variable :
+echo is_int($a).PHP_EOL;
+echo is_numeric($a).PHP_EOL;
+// etc ...
 ?>
 ```
 
@@ -94,7 +105,7 @@ L’opérateur de concaténation de chaîne de caractères est le point (`.`).
 
 ## Interprétation de code POO
 
-Soit le script PHP :
+Soit le script PHP `poo.php` :
 
 ```php
 #!/usr/bin/php
@@ -131,8 +142,6 @@ class Motocyclette
             echo "couleur = $this->couleur".PHP_EOL;
     }
 }
-
-echo 'Version PHP courante : '.phpversion().''.PHP_EOL;
 
 $MonTacot1 = new Motocyclette();
 echo "MonTacot1".PHP_EOL;
@@ -186,9 +195,21 @@ Le script PHP `helloworld.php` :
 
 ```php
 #!/usr/bin/php
+# Mode CLI
+# Le code PHP doit être inséré entre les balises '<?php' et '?>' ou '<?' et '?>'
+
 <?php
 
 // un commentaire : mon premier programme PHP !
+
+echo 'Version PHP courante : '.phpversion().''.PHP_EOL;
+// PHP_EOL insère le saut de ligne adapté à la situation :
+// - en mode CLI : ce sera un '\n'
+// - en mode web : ce sera une balise <br>
+echo 'Système : '.php_uname().PHP_EOL.PHP_EOL;// Voir aussi :
+//phpinfo();
+
+// Le programme
 
 // saisie d'une chaîne de caractères
 $langue = readline("Quelle est votre langue (fr, ...) ? ");
@@ -211,7 +232,7 @@ $i = 0;
 // une boucle
 while ($i < $nb)
 {
-    echo $message."".PHP_EOL;
+    //echo $message."".PHP_EOL;
     echo $message . " " . ($i + 1) . " fois".PHP_EOL;
     $i += 1;
 }
@@ -244,7 +265,7 @@ Un `CompteBancaire` doit posséder un titulaire, un solde et une devise (EUR, US
 
 ![](images/classe-compte.png)
 
-Fournir un programme `compte.php` qui permet de répondre aux questions ci-dessous.
+Fournir un programme `compte.php` qui permet de répondre aux questions suivantes :
 
 Question 7. Implémenter la classe `CompteBancaire`.
 
@@ -257,7 +278,6 @@ Question 10. Afficher `compte1` et `compte2` avec la méthode `affiche()`.
 _Bonus :_ Bill Gates a décidé de vous faire un don de 666 millions de dollars américains. Combien reste-t-il sur son compte ?
 
 Exercices d’entraînement : http://tvaira.free.fr/web/
-
 
 ---
 Thierry Vaira : **[thierry(dot)vaira(at)gmail(dot)com](thierry.vaira@gmail.com)**

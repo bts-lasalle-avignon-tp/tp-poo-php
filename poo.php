@@ -1,7 +1,4 @@
 #!/usr/bin/php
-# Mode CLI
-# Le code PHP doit être inséré entre les balises '<?php' et '?>' ou '<?' et '?>'
-
 <?php
 
 // la première ligne (ci-dessus) commence par #! (le shebang) qui permet d'indiquer
@@ -43,11 +40,6 @@ class Motocyclette
             echo "couleur = $this->couleur".PHP_EOL;
     }
 }
-
-echo 'Version PHP courante : '.phpversion().''.PHP_EOL;
-// PHP_EOL insère le saut de ligne adapté à la situation :
-// - en mode CLI : ce sera un '\n'
-// - en mode web : ce sera une balise <br>
 
 $MonTacot1 = new Motocyclette();
 $MonTacot2 = new Motocyclette("rouge", "500 cm3"); // typage faible !
