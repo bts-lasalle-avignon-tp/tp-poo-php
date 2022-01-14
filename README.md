@@ -9,6 +9,7 @@
   - [Travaux pratiques](#travaux-pratiques)
     - [Pré-requis](#pré-requis)
     - [Travail demandé](#travail-demandé)
+  - [Bac à sable et développement en ligne](#bac-à-sable-et-développement-en-ligne)
 
 **Les objectifs de ce TP sont de s’initier à la programmation PHP en transférant ses connaissances de la programmation orientée objet.**
 
@@ -276,6 +277,26 @@ Question 9. Donner l’instruction qui permet d’afficher simplement le solde e
 Question 10. Afficher `compte1` et `compte2` avec la méthode `affiche()`.
 
 _Bonus :_ Bill Gates a décidé de vous faire un don de 666 millions de dollars américains. Combien reste-t-il sur son compte ?
+
+## Bac à sable et développement en ligne
+
+Il est souvent nécessaire de passer par un "bac à sable".
+
+> En informatique, le bac à sable (_sandbox_) est une zone d'essai permettant d'exécuter des programmes en phase de test ou dans lesquels la confiance est incertaine. C'est notamment très utilisé en sécurité informatique pour sa notion d'isolation.
+
+Il existe de nombreux sites web qui fournissent des EDI (Environnement de Développement Intégré) en ligne pour tester du code ou des services : un espace d'apprentissage séparé. Ils permettent aussi d'échanger des exemples.
+
+Quelques sites :
+
+- JSFiddle : https://jsfiddle.net/ pour HTML, CSS et JavaScript
+- Codeply : https://www.codeply.com/ pour les frameworks JavaScript
+- Coding Ground For Developers : https://www.tutorialspoint.com/codingground.htm pour tout !
+    - **PHP : https://www.tutorialspoint.com/execute_php_online.php**
+    - Python : https://www.tutorialspoint.com/execute_python3_online.php
+    - Markdown : https://www.tutorialspoint.com/online_markdown_editor.php
+- Visual Studio Code Online : https://vscode.dev/
+- Gitpod : https://www.gitpod.io/
+- Codeanywhere (Cloud IDE) : https://codeanywhere.com/
 
 Exercices d’entraînement : http://tvaira.free.fr/web/
 
