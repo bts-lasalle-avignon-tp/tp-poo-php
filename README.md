@@ -347,4 +347,4 @@ Quelques sites :
 Exercices d’entraînement : http://tvaira.free.fr/web/
 
 ---
-Thierry Vaira : **[thierry(dot)vaira(at)gmail(dot)com](thierry.vaira@gmail.com)**
+Thierry Vaira : **[thierry(dot)vaira(at)gmail(dot)com](mailto:thierry.vaira@gmail.com)**
