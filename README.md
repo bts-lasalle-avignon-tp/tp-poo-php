@@ -1,3 +1,5 @@
+<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
+
 # TP POO : PHP
 
 - [TP POO : PHP](#tp-poo--php)
@@ -266,7 +268,20 @@ Un `CompteBancaire` doit posséder un titulaire, un solde et une devise (EUR, US
 
 ![](images/classe-compte.png)
 
-Fournir un programme `compte.php` qui permet de répondre aux questions suivantes :
+Fournir la classe `CompteBancaire` dans `'src/CompteBancaire.class.php'`.
+
+Fournir un programme `compte-bancaire.php` qui permet de répondre aux questions ci-desous.
+
+```php
+#!/usr/bin/php
+<?php
+
+require_once('src/CompteBancaire.class.php');
+
+// TODO
+
+?>
+```
 
 Question 7. Implémenter la classe `CompteBancaire`.
 
@@ -276,7 +291,38 @@ Question 9. Donner l’instruction qui permet d’afficher simplement le solde e
 
 Question 10. Afficher `compte1` et `compte2` avec la méthode `affiche()`.
 
+Exemple :
+
+```sh
+Titulaire du compte : Moi
+Vous disposez de 599400000 EUR
+```
+
 _Bonus :_ Bill Gates a décidé de vous faire un don de 666 millions de dollars américains. Combien reste-t-il sur son compte ?
+
+## Tests unitaires
+
+Il y a une série de tests unitaires pour ce TP qui utilise [PHPUnit](https://phpunit.de/).
+
+Installation :
+
+```sh
+$ sudo apt install composer
+
+$ composer require --dev phpunit/phpunit ^9
+
+$ ./vendor/bin/phpunit -v
+PHPUnit 9.5.28 by Sebastian Bergmann and contributors.
+
+Usage:
+  phpunit [options] UnitTest.php
+  phpunit [options] <directory>
+...
+
+$ ./vendor/bin/phpunit tests/TestCompteBancaire.php
+
+$ ./vendor/bin/phpunit --testsuite TestCompteBancaire
+```
 
 ## Bac à sable et développement en ligne
 

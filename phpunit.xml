@@ -1,0 +1,9 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="TestCompteBancaire">
+        <file>tests/TestCompteBancaireAccesseurs.php</file>
+        <file>tests/TestCompteBancaire.php</file>
+        <file>tests/TestCompteBancaireAffiche.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
