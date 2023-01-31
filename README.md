@@ -18,6 +18,7 @@
 ## Le langage PHP
 
 Cette partie présente les éléments essentiels à connaître sur PHP. Evidemment, cela ne remplace pas un cours ou la documentation officielle du langage.
+
 ### Présentation
 
 PHP est un langage de programmation interprété. Il permet la programmation orientée objet. Il est doté d’un typage dynamique faible.
