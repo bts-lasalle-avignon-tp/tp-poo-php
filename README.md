@@ -1,5 +1,7 @@
 <img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
 
+![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=plastic)
+
 # TP POO : PHP
 
 - [TP POO : PHP](#tp-poo--php)
