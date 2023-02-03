@@ -13,6 +13,7 @@
   - [Travaux pratiques](#travaux-pratiques)
     - [Pré-requis](#pré-requis)
     - [Travail demandé](#travail-demandé)
+  - [Tests unitaires](#tests-unitaires)
   - [Bac à sable et développement en ligne](#bac-à-sable-et-développement-en-ligne)
 
 **Les objectifs de ce TP sont de s’initier à la programmation PHP en transférant ses connaissances de la programmation orientée objet.**
