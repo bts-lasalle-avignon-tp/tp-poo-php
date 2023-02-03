@@ -1,6 +1,6 @@
 <img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
 
-![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=plastic)
+![](https://img.shields.io/badge/Github-Classroom-green.svg) ![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=plastic)
 
 # TP POO : PHP
 
@@ -16,6 +16,8 @@
   - [Bac à sable et développement en ligne](#bac-à-sable-et-développement-en-ligne)
 
 **Les objectifs de ce TP sont de s’initier à la programmation PHP en transférant ses connaissances de la programmation orientée objet.**
+
+> Pour les enseignants, ceci est un "petit" devoir pour [Github Classroom](https://btssn-lasalle84.github.io/guides-developpement-logiciel/guide-classroom.html). Il montre l'utilisation des tests unitaires en PHP, la notation automatique et l'insertion d'un badge pour l'affichage de la note.
 
 ## Le langage PHP
 
