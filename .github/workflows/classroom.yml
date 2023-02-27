@@ -20,6 +20,7 @@ jobs:
       - uses: php-actions/phpunit@master
         with:
           configuration: phpunit.xml
+        continue-on-error: true
 
       # add id to action so outputs can be used
       - uses: education/autograding@v1
